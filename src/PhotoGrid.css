@@ -1,0 +1,20 @@
+.tile_grid {
+  width: 100%;
+  margin: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.tile {
+  width: 30%;
+  height: 300px;
+  margin: 20px 0 0 0;
+  background: #c3c3c3;
+  overflow: hidden;
+}
+
+.tile img {
+  width: 150%;
+  object-fit: cover;
+}
