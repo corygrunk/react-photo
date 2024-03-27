@@ -1,0 +1,6 @@
+{
+	"name": "react-photo",
+	"image": "mcr.microsoft.com/devcontainers/base",
+	// Features to add to the dev container. More info: https://containers.dev/features.
+	"features": {}
+}
