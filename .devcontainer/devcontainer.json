@@ -7,6 +7,6 @@
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	"features": {},
 
-	// "postStartCommand": "npm install && npm start"
+	"postCreateCommand": "npm install && npm start"
 
 }
