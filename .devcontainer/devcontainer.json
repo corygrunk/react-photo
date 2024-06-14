@@ -5,5 +5,8 @@
 	"image": "mcr.microsoft.com/devcontainers/typescript-node:latest",
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
-	"features": {}
+	"features": {},
+
+	"postStartCommand": "npm install && npm start"
+
 }
