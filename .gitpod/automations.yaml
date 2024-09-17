@@ -1,7 +1,0 @@
-tasks:
-    install:
-        name: NPM Install
-        command: |
-            npm install
-        triggeredBy:
-        - manual
