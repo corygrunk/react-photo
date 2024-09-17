@@ -1,0 +1,10 @@
+{
+        "name": "react-photo",
+
+        // Use 'dockerFile' if you need to create a Dockerfile.
+        "image": "mcr.microsoft.com/devcontainers/typescript-node:latest",
+
+        // Features to add to the dev container. More info: https://containers.dev/features.
+        "features": {}
+}
+
