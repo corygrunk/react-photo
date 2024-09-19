@@ -1,7 +1,13 @@
 tasks:
-    install:
-        name: NPM Install
+    hello:
+        name: NPM install
         command: |
             npm install
+        triggeredBy:
+        - manual
+    again:
+        name: Start app
+        command: |
+            npm start
         triggeredBy:
         - manual
