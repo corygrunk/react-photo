@@ -1,7 +1,7 @@
 services:
     database:
         name: Start backend
-        commands: npm start
+        commands:
             start: npm start
 tasks:
   installDependencies:
