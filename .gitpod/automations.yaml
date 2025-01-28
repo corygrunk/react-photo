@@ -1,0 +1,18 @@
+tasks:
+  installDependencies:
+    name: Install Dependencies
+    command: npm install
+    triggeredBy:
+      - postEnvironmentStart
+
+  startDev:
+    name: Start Development Server
+    command: npm start
+    triggeredBy:
+      - manual
+
+  runTests:
+    name: Run Tests
+    command: npm test
+    triggeredBy:
+      - manual
