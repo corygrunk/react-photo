@@ -2,7 +2,7 @@ services:
     database:
         name: Start backend
         commands:
-            start: npm start
+            start: npm run build
 tasks:
   installDependencies:
     name: Install Dependencies
